@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saffron Palace | Authentic Indian Fine Dining</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="ornament-bar" aria-hidden="true"></div>
+    <div class="container nav-container">
+      <a class="logo" href="#home" aria-label="Saffron Palace home">
+        <span class="logo-mark">ॐ</span>
+        Saffron Palace
+      </a>
+      <nav class="nav" id="primary-nav" aria-label="Primary">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#menu">Menu</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#reservations">Reservations</a>
+        <a class="nav-link" href="#catering">Catering</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <label class="theme-switch" aria-label="Festival theme selector">
+          <span class="switch-label">Festive Aura</span>
+          <select id="festival-select" aria-label="Choose festival theme">
+            <option value="classic">Classic</option>
+            <option value="diwali">Diwali Glow</option>
+            <option value="holi">Holi Bloom</option>
+            <option value="monsoon">Monsoon Spice</option>
+          </select>
+        </label>
+        <button class="hamburger" id="hamburger" aria-label="Open navigation" aria-expanded="false">
+          <span></span>
+          <span class="spice-dot" aria-hidden="true">🌶️</span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-pattern" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Namaste &mdash; Welcome to unforgettable Indian gastronomy</p>
+        <h1>Saffron Palace</h1>
+        <p class="tagline">Authentic Indian Flavors wrapped in fine-dining elegance</p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn primary">Explore Menu</a>
+          <a href="#reservations" class="btn secondary">Book Table</a>
+        </div>
+        <div class="cultural-highlights">
+          <span class="badge">Heritage Recipes</span>
+          <span class="badge">Slow-fired Tandoor</span>
+          <span class="badge">Ayurvedic Spice Balance</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section festival-banner" aria-label="Festival announcements">
+      <div class="container festival-grid">
+        <div>
+          <p class="eyebrow">Seasonal Celebrations</p>
+          <h2>Diwali Sufi Nights</h2>
+          <p>Live tabla, curated thali experience, and luminous rangoli installations every weekend through the festive season.</p>
+        </div>
+        <div class="highlight-card">
+          <p class="eyebrow">Special Lunch Buffet</p>
+          <h3>Spice Symphony Noon Buffet</h3>
+          <p>Weekdays 12&ndash;3 PM | Featuring street-food inspired live stations.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div>
+          <div class="section-heading">
+            <p class="eyebrow">Our Story</p>
+            <h2>Legacy of Royal Kitchens</h2>
+            <p>Saffron Palace was born from heirloom recipes gathered across Rajasthan, Kerala backwaters, and the spice markets of Hyderabad. Every plate celebrates mortar-and-pestle masalas and slow-tempered ghee.</p>
+          </div>
+          <ul class="philosophy-list">
+            <li><strong>Farm-to-Tandoor:</strong> Seasonal produce kissed by smokey clay ovens.</li>
+            <li><strong>Spice Stewardship:</strong> Single-origin spices stone-ground in-house.</li>
+            <li><strong>Cultural Authenticity Badges:</strong> Ministry of Tourism certified, Slow Food India advocate.</li>
+          </ul>
+        </div>
+        <article class="chef-card">
+          <p class="eyebrow">Meet the Maestro</p>
+          <h3>Chef Meera Kulkarni</h3>
+          <p>Trained in royal Awadhi kitchens and temple kitchens of Udupi, Chef Meera curates tasting menus that blend classical plating with soulful comfort.</p>
+          <div class="chef-details">
+            <span>20+ years crafting spice narratives</span>
+            <span>Represented India at World Gastronomy Summit</span>
+            <span>Slow-cooked gravies simmer 12 hours</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section specialties" id="specialties">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Chef's Specialties</p>
+          <h2>Spiced Signatures</h2>
+          <p>Coastal breezes, royal courts, and bustling markets inspire these masterpieces.</p>
+        </div>
+        <div class="specialty-grid">
+          <article class="special-card" data-type="non-veg">
+            <div class="card-top">
+              <h3>Butter Chicken Royale</h3>
+              <span class="spice-indicator" aria-label="Medium spice">🌶🌶</span>
+            </div>
+            <p>Silky tomato-fenugreek gravy finished with smoked cream. Served with saffron laccha paratha.</p>
+            <p class="dietary-tag">Non-Vegetarian</p>
+          </article>
+          <article class="special-card" data-type="non-veg">
+            <div class="card-top">
+              <h3>Nizami Dum Biryani</h3>
+              <span class="spice-indicator" aria-label="Hot spice">🌶🌶🌶</span>
+            </div>
+            <p>Layered basmati, saffron, and rose-kewra steam with tender goat finished in sealed handi.</p>
+            <p class="dietary-tag">Gluten-free</p>
+          </article>
+          <article class="special-card" data-type="veg">
+            <div class="card-top">
+              <h3>Smoked Tandoori Platter</h3>
+              <span class="spice-indicator" aria-label="Medium spice">🌶🌶</span>
+            </div>
+            <p>Tandoor-roasted paneer tikka, seekh kebab, and seasonal vegetables lacquered in mustard oil.</p>
+            <p class="dietary-tag">Vegetarian</p>
+          </article>
+          <article class="special-card" data-type="veg">
+            <div class="card-top">
+              <h3>Golden Masala Dosa</h3>
+              <span class="spice-indicator" aria-label="Mild spice">🌶</span>
+            </div>
+            <p>Fermented rice crêpe with turmeric potato palya, gunpowder chutney, and coconut jaggery relish.</p>
+            <p class="dietary-tag">Vegan friendly</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section menu" id="menu">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Menu Preview</p>
+          <h2>Flavors by Course</h2>
+          <p>Select a category or toggle spice levels to curate your tasting journey.</p>
+        </div>
+        <div class="menu-controls">
+          <div class="filter-buttons" role="tablist" aria-label="Menu categories">
+            <button class="filter-btn active" data-filter="all" role="tab">All</button>
+            <button class="filter-btn" data-filter="appetizers" role="tab">Appetizers</button>
+            <button class="filter-btn" data-filter="mains" role="tab">Main Course</button>
+            <button class="filter-btn" data-filter="breads" role="tab">Breads</button>
+            <button class="filter-btn" data-filter="desserts" role="tab">Desserts</button>
+          </div>
+          <label class="spice-toggle">
+            <input type="checkbox" id="spice-toggle" />
+            <span>Spice Level View</span>
+          </label>
+        </div>
+        <div class="menu-grid" role="list">
+          <article class="menu-card" role="listitem" data-category="appetizers" data-spice="1">
+            <div class="menu-info">
+              <p class="menu-category">Appetizers</p>
+              <h3>Pani Puri Flight</h3>
+              <p>Six flavored waters &mdash; tamarind, kokum, and jaljeera &mdash; served with crispy puri shots.</p>
+              <div class="dietary-icons"><span aria-label="Vegetarian">🪴</span></div>
+              <p class="chef-star">Chef's Pick</p>
+            </div>
+            <div class="menu-meta">
+              <p class="price">$14</p>
+              <p class="spice-meter" aria-hidden="true">🌶</p>
+            </div>
+          </article>
+          <article class="menu-card" role="listitem" data-category="mains" data-spice="3">
+            <div class="menu-info">
+              <p class="menu-category">Main Course</p>
+              <h3>Coastal Malabar Curry</h3>
+              <p>Coconut milk curry with curry-leaf tempered tiger prawns and appam.</p>
+              <div class="dietary-icons"><span aria-label="Gluten free">🌾✕</span></div>
+            </div>
+            <div class="menu-meta">
+              <p class="price">$28</p>
+              <p class="spice-meter" aria-hidden="true">🌶🌶🌶</p>
+            </div>
+          </article>
+          <article class="menu-card" role="listitem" data-category="mains" data-spice="2">
+            <div class="menu-info">
+              <p class="menu-category">Main Course</p>
+              <h3>Lucknowi Kofta Qorma</h3>
+              <p>Saffron cashew gravy with melt-in-mouth vegetable koftas, finished with ittar.</p>
+              <div class="dietary-icons"><span aria-label="Vegan">🌿</span></div>
+            </div>
+            <div class="menu-meta">
+              <p class="price">$24</p>
+              <p class="spice-meter" aria-hidden="true">🌶🌶</p>
+            </div>
+          </article>
+          <article class="menu-card" role="listitem" data-category="breads" data-spice="1">
+            <div class="menu-info">
+              <p class="menu-category">Breads</p>
+              <h3>Turmeric Sourdough Naan</h3>
+              <p>Charred in clay oven, brushed with jaggery-garlic butter.</p>
+              <div class="dietary-icons"><span aria-label="Contains gluten">🌾</span></div>
+            </div>
+            <div class="menu-meta">
+              <p class="price">$8</p>
+              <p class="spice-meter" aria-hidden="true">🌶</p>
+            </div>
+          </article>
+          <article class="menu-card" role="listitem" data-category="desserts" data-spice="0">
+            <div class="menu-info">
+              <p class="menu-category">Desserts</p>
+              <h3>Cardamom Saffron Kulfi</h3>
+              <p>Slow-churned pistachio kulfi with rose petal crumble.</p>
+              <div class="dietary-icons"><span aria-label="Gluten free">🌾✕</span></div>
+            </div>
+            <div class="menu-meta">
+              <p class="price">$12</p>
+              <p class="spice-meter" aria-hidden="true">✨</p>
+            </div>
+          </article>
+          <article class="menu-card" role="listitem" data-category="appetizers" data-spice="2">
+            <div class="menu-info">
+              <p class="menu-category">Appetizers</p>
+              <h3>Masala Street Kebab</h3>
+              <p>Charred jackfruit seekh, mint chutney smoke dome, pickled onions.</p>
+              <div class="dietary-icons"><span aria-label="Vegan">🌿</span></div>
+              <p class="chef-star">Chef's Special</p>
+            </div>
+            <div class="menu-meta">
+              <p class="price">$16</p>
+              <p class="spice-meter" aria-hidden="true">🌶🌶</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section spice-journey" id="spice-journey">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Spice Journey</p>
+          <h2>Trace the Aromatic Trail</h2>
+          <p>Tap a spice stop to learn how your meal layers flavor.</p>
+        </div>
+        <div class="journey-grid">
+          <div class="journey-map">
+            <button class="journey-step active" data-step="0">Kerala Pepper Coast</button>
+            <button class="journey-step" data-step="1">Goan Kokum Bay</button>
+            <button class="journey-step" data-step="2">Hyderabadi Chilli Bazaar</button>
+            <button class="journey-step" data-step="3">Kashmiri Saffron Valley</button>
+          </div>
+          <article class="journey-detail" id="journey-detail" aria-live="polite"></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Visual Feast</p>
+          <h2>Gallery of Traditions</h2>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-card" data-caption="Tandoori flames">
+            <img src="https://images.unsplash.com/photo-1608039829574-3c9b59bdcced?auto=format&fit=crop&w=600&q=80" alt="Tandoori grill with skewers" />
+            <figcaption>Live tandoor theatrics</figcaption>
+          </figure>
+          <figure class="gallery-card" data-caption="Plated thali">
+            <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=600&q=80" alt="Plated Indian thali" />
+            <figcaption>Royal thali tasting</figcaption>
+          </figure>
+          <figure class="gallery-card" data-caption="Dessert artistry">
+            <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80" alt="Indian dessert" />
+            <figcaption>Saffron dessert atelier</figcaption>
+          </figure>
+          <figure class="gallery-card" data-caption="Spice market">
+            <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=600&q=80" alt="Indian spices" />
+            <figcaption>Hand-ground masala bar</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reservations" id="reservations">
+      <div class="container reservation-wrapper">
+        <div class="reservation-copy">
+          <p class="eyebrow">Reserve the Palace</p>
+          <h2>Book an intimate culinary ritual</h2>
+          <p>From mehendi brunches to executive dinners, the palace team tailors every seating with floral rangolis, brass thalis, and curated spice pairings.</p>
+        </div>
+        <form class="reservation-form" id="reservation-form" novalidate>
+          <label>Full Name<input type="text" name="name" placeholder="Aarav Sharma" required></label>
+          <label>Email<input type="email" name="email" placeholder="aarav@example.com" required></label>
+          <label>Phone<input type="tel" name="phone" placeholder="(+91) 98765 43210" required></label>
+          <label>Date<input type="date" name="date" required></label>
+          <label>Time<input type="time" name="time" required></label>
+          <label>Guests
+            <select name="guests" required>
+              <option value="">Select</option>
+              <option value="2">2 guests</option>
+              <option value="4">4 guests</option>
+              <option value="6">6 guests</option>
+              <option value="8+">8+ guests</option>
+            </select>
+          </label>
+          <label>Special Occasion
+            <select name="occasion" required>
+              <option value="">Choose</option>
+              <option value="birthday">Birthday</option>
+              <option value="anniversary">Anniversary</option>
+              <option value="festival">Festival Feast</option>
+              <option value="corporate">Corporate Soirée</option>
+            </select>
+          </label>
+          <label>Notes
+            <textarea name="notes" rows="3" placeholder="Allergies, seating, rituals..."></textarea>
+          </label>
+          <button type="submit" class="btn fabric">Send Namaste</button>
+          <p class="form-feedback" id="form-feedback" role="alert" aria-live="assertive"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Guest Ragas</p>
+          <h2>Voices of the Palace</h2>
+        </div>
+        <div class="testimonial-slider" aria-live="polite">
+          <button class="slider-btn prev" aria-label="Previous review">❮</button>
+          <div class="testimonial-content" id="testimonial-content"></div>
+          <button class="slider-btn next" aria-label="Next review">❯</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section catering" id="catering">
+      <div class="container catering-grid">
+        <article>
+          <p class="eyebrow">Catering & Events</p>
+          <h2>Royal Banquets & Baraats</h2>
+          <p>We orchestrate weddings, sangeets, and corporate galas with brass urli décor, live chaat bars, and regal silver service.</p>
+          <ul class="catering-list">
+            <li>Grandeur wedding feasts with regional live stations</li>
+            <li>Corporate thali boxes featuring Ayurvedic balance</li>
+            <li>Destination catering with traveling tandoor brigade</li>
+          </ul>
+        </article>
+        <article class="banquet-card">
+          <h3>Traditional Banquet Packages</h3>
+          <p>Choose from Mughlai Majesty, Coastal Spice Voyage, or Satvik Serenity menus. Each package includes décor styling, signature welcome drinks, and dessert safari.</p>
+          <a href="#reservations" class="btn primary">Plan an Event</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Visit Saffron Palace</p>
+          <h2>Contact & Location</h2>
+          <ul class="contact-list">
+            <li><strong>Address:</strong> 27 Spice Route, Mumbai 400001</li>
+            <li><strong>Phone:</strong> +91 22 5555 0101</li>
+            <li><strong>Email:</strong> namaste@saffronpalace.in</li>
+          </ul>
+          <div class="hours">
+            <h3>Opening Hours</h3>
+            <p>Lunch Buffet: Mon-Fri 12pm - 3pm</p>
+            <p>Dinner A la carte: Daily 6pm - 11pm</p>
+            <p>Sunday Brunch: 11am - 2pm</p>
+          </div>
+        </div>
+        <div class="map-panel">
+          <div class="map-placeholder" role="img" aria-label="Map placeholder of Saffron Palace">Mumbai Fort District Map</div>
+          <p>Located near Gateway of India with valet parking and chauffeur lounge.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="logo">Saffron Palace</p>
+        <p>Crafting celebratory Indian dining since 1999.</p>
+        <p class="cultural-note">"Athithi Devo Bhava" &mdash; every guest is divine.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#menu">Menu</a>
+        <a href="#reservations">Reservations</a>
+        <a href="#catering">Catering</a>
+      </div>
+      <div>
+        <h4>Newsletter</h4>
+        <form class="newsletter" id="newsletter" novalidate>
+          <label>
+            <span class="sr-only">Email address</span>
+            <input type="email" name="newsletter" placeholder="Enter email" required>
+          </label>
+          <button type="submit" class="btn secondary">Join</button>
+        </form>
+        <div class="socials">
+          <a href="#" aria-label="Instagram">ॐ</a>
+          <a href="#" aria-label="Facebook">श्री</a>
+          <a href="#" aria-label="YouTube">राग</a>
+        </div>
+      </div>
+    </div>
+    <p class="festival-note">Upcoming: Lohri smokehouse evenings | Pongal harvest brunch | Eid Dawat tasting</p>
+    <p class="copyright">© <span id="year"></span> Saffron Palace. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
